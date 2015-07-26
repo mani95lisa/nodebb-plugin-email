@@ -6,9 +6,7 @@ NodeBB plugin for sending emails via SMTP services
 Installation
 ---
 
-* Install this plugin via the "Plugins" page in the ACP
-* Then enable the plugin in NodeBB's Admin Control Panel in the Plugins tab.
-* Restart NodeBB
+`npm install nodebb-plugin-emailer`
 
 Configuration
 ---
