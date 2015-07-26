@@ -1,0 +1,24 @@
+{
+  "name": "nodebb-plugin-email",
+  "version": "1.0.0",
+  "description": "nodebb plugin for email",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^1.4.0",
+    "nodemailer-wellknown": "^0.1.6",
+    "path": "~0.4.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mani95lisa/nodebb-plugin-email.git"
+  },
+  "author": "mario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mani95lisa/nodebb-plugin-email/issues"
+  },
+  "homepage": "https://github.com/mani95lisa/nodebb-plugin-email"
+}

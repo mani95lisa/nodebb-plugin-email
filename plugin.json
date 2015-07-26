@@ -1,0 +1,14 @@
+{
+    "id": "nodebb plugin for email",
+    "url": "https://github.com/mani95lisa/nodebb-plugin-email.git",
+    "name": "Email Services ",
+    "description": "Allows NodeBB to send emails via some services",
+    "library": "./index.js",
+    "templates": "./templates",
+    "hooks": [
+        { "hook": "action:email.send", "method": "send" },
+        { "hook": "filter:admin.header.build", "method": "admin.menu" },
+        { "hook": "static:app.load", "method": "init"}
+    ],
+    "compatibility": "~0.7.0"
+}
