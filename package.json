@@ -1,12 +1,15 @@
 {
   "name": "nodebb-plugin-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodebb plugin for email",
   "main": "index.js",
   "dependencies": {
     "nodemailer": "^1.4.0",
     "nodemailer-wellknown": "^0.1.6",
     "path": "~0.4.9"
+  },
+  "nbbpm": {
+    "compatibility": "^0.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
